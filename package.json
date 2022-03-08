@@ -1,0 +1,11 @@
+{
+  "name": "uniquestudentid",
+  "version": "1.0.0",
+  "description": "student unique id management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nazim rohit rishabh gulabpreet vijay chestha",
+  "license": "ISC"
+}
