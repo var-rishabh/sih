@@ -11,13 +11,12 @@ const data = [
         },
         age:20,
         address:"aligarh",
-        profile: "https://drive.google.com/file/d/16DeEFs0ZEedtGISkZj8HJoxelx0Nz1bZ/view?usp=sharing";
+        profile: "https://drive.google.com/file/d/16DeEFs0ZEedtGISkZj8HJoxelx0Nz1bZ/view?usp=sharing",
         documents : {
             marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:456709876842,
-
     },
     {
         firstName : "Nazim",
@@ -37,7 +36,6 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876842,
-
     },
     {
         firstName : "Alex",
@@ -57,7 +55,6 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876843,
-
     },
     {
         firstName : "Rohit",
@@ -77,7 +74,6 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876844,
-
     },
     {
         firstName : "John",
@@ -97,7 +93,6 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876846,
-
     },
     {
         firstName : "Vinit",
@@ -117,7 +112,6 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876845,
-
     },
     {
         firstName : "Mudit",
@@ -137,7 +131,6 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876847,
-
     },
     {
         firstName : "Syed",
@@ -157,6 +150,5 @@ const data = [
             marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
         },
         SID:786709876847,
-
     }  
-  ];
+];
