@@ -41,7 +41,11 @@ body {
     align-items: center;
     padding: 50px;
 }
+.content {
+    margin: 25px 0;
+}
 button {
+    cursor: pointer;
     width: 200px;
     border-color: transparent;
     background-color: #744ebf;

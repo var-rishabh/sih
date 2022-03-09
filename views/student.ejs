@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SUID</title>
+        <link rel="stylesheet" href="/css/home.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="block">
+                <h1>Log In</h1>
+                <form action="/studentLogin" method="POST">
+                    <div class="form">
+                        <label for="std_id" class="form-label">Student ID</label>
+                        <input type="number" class="form-input" name="std_id" id="std_id" autofocus required/>
+                    </div>
+                    <div class="form">
+                        <label class="form-label" for="password">Password</label>
+                        <input type="password" class="form-input" name="password" id="password" required/>
+                    </div>
+                    <button class="button" type="submit">Login</button>
+                </form>
+                
+                <h1>Sign Up</h1>
+                <form action="/studentLogin" method="POST">
+                    <div class="form">
+                        <label for="aadhar_num" class="form-label">Aadhar Number</label>
+                        <input type="number" class="form-input" name="aadhar_num" id="aadhar_num" autofocus required/>
+                    </div>
+                    <div class="form">
+                        <label class="form-label" for="phone_num">Phone Number</label>
+                        <input type="number" class="form-input" name="phone_num" id="phone_num" required/>
+                    </div>
+                    <button class="button" type="submit">Login</button>
+                </form>
+        
+            </div>
+        </div>
+    <body>
+</html>
+
+
