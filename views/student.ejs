@@ -11,8 +11,8 @@
         <div class="container">
             <div class="block">
                 <h1>Log In</h1>
-                <form action="/studentLogin" method="POST">
-                    <div class="form">
+                <form action="/v1/student/session" method="POST">
+                <div class="form">
                         <label for="std_id" class="form-label">Student ID</label>
                         <input type="number" class="form-input" name="std_id" id="std_id" autofocus required/>
                     </div>
@@ -38,9 +38,7 @@
         
             </div>
         </div>
-        <script>
-            console.log(data);
-        </script>
+        
     </body>
         
 </html>
