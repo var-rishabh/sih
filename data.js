@@ -12,6 +12,8 @@ const data = [
         age:20,
         address:"aligarh",
         SID:456709876842,
+        profilePic:"",
+        markSheet:"",
 
     },
     {
