@@ -18,6 +18,8 @@ const data = [
         },
         password: "password@123",
         SID:456709876842,
+        profilePic:"",
+        markSheet:"",
 
     },
     {
