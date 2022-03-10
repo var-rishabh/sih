@@ -11,12 +11,10 @@ const data = [
         },
         age:20,
         address:"aligarh",
-        profile: "https://drive.google.com/file/d/16DeEFs0ZEedtGISkZj8HJoxelx0Nz1bZ/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:456709876842,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "Nazim",
@@ -30,12 +28,10 @@ const data = [
         },
         age:20,
         address:"silchar",
-        profile: "https://drive.google.com/file/d/1O4971kbN7YDw68S6GuYt7nEBPJiVFSyW/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876842,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "Alex",
@@ -49,12 +45,10 @@ const data = [
         },
         age:20,
         address:"Delhi",
-        profile: "https://drive.google.com/file/d/1T567wgkYTJKptycPH5f8wDPL7uo4ynpe/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876843,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "Rohit",
@@ -68,12 +62,10 @@ const data = [
         },
         age:20,
         address:"Delhi",
-        profile: "https://drive.google.com/file/d/1CReKQe2WghKZQxPeZNjqUI2x75WKkMuJ/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876844,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "John",
@@ -87,12 +79,10 @@ const data = [
         },
         age:20,
         address:"Silchar",
-        profile: "https://drive.google.com/file/d/1O4971kbN7YDw68S6GuYt7nEBPJiVFSyW/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876846,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "Vinit",
@@ -106,12 +96,10 @@ const data = [
         },
         age:20,
         address:"Fatehpur",
-        profile: "https://drive.google.com/file/d/1O4971kbN7YDw68S6GuYt7nEBPJiVFSyW/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876845,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "Mudit",
@@ -125,12 +113,10 @@ const data = [
         },
         age:20,
         address:"Rohtak",
-        profile: "https://drive.google.com/file/d/1O4971kbN7YDw68S6GuYt7nEBPJiVFSyW/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876847,
+        profilePic:"",
+        markSheet:"",
+
     },
     {
         firstName : "Syed",
@@ -144,11 +130,12 @@ const data = [
         },
         age:20,
         address:"Faridabad",
-        profile: "https://drive.google.com/file/d/1O4971kbN7YDw68S6GuYt7nEBPJiVFSyW/view?usp=sharing",
-        documents : {
-            marksheet10 : "https://drive.google.com/file/d/1kzUmJxwchzjlfNzHdPTZ9D7e0XwsYUoP/view?usp=sharing",
-            marksheet12 : "https://drive.google.com/file/d/10qYol0sTB32sUaYTrBviAFxGXOQGdxoo/view?usp=sharing",
-        },
         SID:786709876847,
+        profilePic:"",
+        markSheet:"",
+
     }  
 ];
+
+
+module.exports = data;

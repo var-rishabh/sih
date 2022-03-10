@@ -3,7 +3,7 @@ const router = express.Router();
 
 const {homeDummy} = require('../controllers/homeController');
 
-router.route("/homepage").get(homeDummy);
+router.route("/").get(homeDummy);
 
 
 
