@@ -1,7 +1,6 @@
 const data = require('../data');
 
 exports.signIn =(req,res)=>{
-    console.log(data);
     res.render("student");
 };
 

@@ -5,13 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SUID</title>
-        <link rel="stylesheet" href="/css/home.css" />
+        <link rel="stylesheet" href="/css/forms.css" />
     </head>
     <body>
         <div class="container">
-            <div class="block">
-                <h1>Log In</h1>
-                <form action="/studentLogin" method="POST">
+            <!-- <div class="block">
+                <h1>Sign In</h1>
+                <form action="/studentSignIn" method="POST">
                     <div class="form">
                         <label for="std_id" class="form-label">Student ID</label>
                         <input type="number" class="form-input" name="std_id" id="std_id" autofocus required/>
@@ -24,7 +24,7 @@
                 </form>
                 
                 <h1>Sign Up</h1>
-                <form action="/studentLogin" method="POST">
+                <form action="/studentSignUp" method="POST">
                     <div class="form">
                         <label for="aadhar_num" class="form-label">Aadhar Number</label>
                         <input type="number" class="form-input" name="aadhar_num" id="aadhar_num" autofocus required/>
@@ -35,14 +35,69 @@
                     </div>
                     <button class="button" type="submit">Login</button>
                 </form>
-        
-            </div>
+            </div> -->
+
+            <div class="block">
+                <div class="titleText">
+                  <div class="title login">Log In</div>
+                  <div class="title signup">Sign Up</div>
+                </div>
+                <div class="form">
+                  <div class="slide-controls">
+                    <input type="radio" name="slide" id="login" checked>
+                    <input type="radio" name="slide" id="signup">
+                    <label for="login" class="slide login">Login</label>
+                    <label for="signup" class="slide signup">Signup</label>
+                    <div class="slider-tab"></div>
+                  </div>
+                  <div class="form-inner">
+                    <form action="#" method="post" class="login">
+                        <div class="field">
+                            <input type="text" placeholder="Student ID" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Login">
+                        </div>
+                    </form>
+                    <form action="#" method="post" class="signup">
+                        <div class="field">
+                            <input type="text" placeholder="Aadhar Number" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Signup">
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
         </div>
         <script>
-            console.log(data);
+            const loginText = document.querySelector(".titleText .login");
+            const loginForm = document.querySelector("form.login");
+            const loginBtn = document.querySelector("label.login");
+            const signupBtn = document.querySelector("label.signup");
+            const signupLink = document.querySelector("form .signup-link a");
+            signupBtn.onclick = (()=>{
+                loginForm.style.marginLeft = "-50%";
+                loginText.style.marginLeft = "-50%";
+            });
+            loginBtn.onclick = (()=>{
+                loginForm.style.marginLeft = "0%";
+                loginText.style.marginLeft = "0%";
+            });
+            signupLink.onclick = (()=>{
+                signupBtn.click();
+                return false;
+            });
         </script>
     </body>
-        
 </html>
-
-
