@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SUID</title>
-        <link rel="stylesheet" href="/css/forms.css" />
+        <link rel="stylesheet" href="/css/form.css" />
     </head>
     <body>
         <div class="container">
@@ -35,7 +35,7 @@
                             <input type="submit" value="Login">
                         </div>
                     </form>
-                    <form action="/studentSignUp" method="POST" class="signup">
+                    <form action="/v1/student/signup" method="POST" class="signup">
                         <div class="field">
                             <input type="number" placeholder="Aadhar Number" name="aadhar_num" id="aadhar_num" required>
                         </div>
@@ -51,24 +51,8 @@
                 </div>
             </div>
         </div>
-        <script>
-            const loginText = document.querySelector(".titleText .login");
-            const loginForm = document.querySelector("form.login");
-            const loginBtn = document.querySelector("label.login");
-            const signupBtn = document.querySelector("label.signup");
-            const signupLink = document.querySelector("form .signup-link a");
-            signupBtn.onclick = (()=>{
-                loginForm.style.marginLeft = "-50%";
-                loginText.style.marginLeft = "-50%";
-            });
-            loginBtn.onclick = (()=>{
-                loginForm.style.marginLeft = "0%";
-                loginText.style.marginLeft = "0%";
-            });
-            signupLink.onclick = (()=>{
-                signupBtn.click();
-                return false;
-            });
+        <script src="/js/form.js">
+            
         </script>
     </body>
 </html>

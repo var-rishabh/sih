@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <section class="profile-card">
+        <div class="card">
+            <div class="img">
+                <img src="<%= info.profile %>" style="max-width : 150px">
+            </div>
+            <h1> <%= info.firstName + " " + info.middleName + " " + info.lastName %> </h1>
+            <div class="content">
+                <p> Student ID : <%= info.SID %>  </p>
+                <p> DOB : <%= info.DOB.day + " / " + info.DOB.month + " / " + info.DOB.year %>  </p>
+                <p> Age : <%= info.age %>  </p>
+                <p> Aadhar Number : <%= info.aadharNumber %>  </p>
+                <p> City : <%= info.address %>  </p>
+            </div>
+        </div>
+    </section>  
+</body>
+</html>

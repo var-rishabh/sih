@@ -35,7 +35,7 @@ body {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
-  /* transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .block .slide-controls {
   position: relative;
@@ -58,7 +58,7 @@ body {
   line-height: 48px;
   cursor: pointer;
   z-index: 1;
-  /* transition: all 0.6s ease; */
+  transition: all 0.6s ease;
 }
 .slide-controls label.signup {
   color: #000;
@@ -71,7 +71,7 @@ body {
   z-index: 0;
   border-radius: 15px;
   background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
-  /* transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 input[type="radio"] {
   display: none;
@@ -104,7 +104,7 @@ input[type="radio"] {
 }
 .form .form-inner form {
   width: 50%;
-  /* transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .form-inner form .field {
   height: 50px;
@@ -120,11 +120,11 @@ input[type="radio"] {
   border: 1px solid lightgrey;
   border-bottom-width: 2px;
   font-size: 17px;
-  /* transition: all 0.3s ease; */
+  transition: all 0.3s ease;
 }
 .form-inner form .field input:focus {
   border-color: #1a75ff;
-  /* box-shadow: inset 0 0 3px #fb6aae; */
+  box-shadow: inset 0 0 3px #fb6aae;
 }
 .form-inner form .field input::placeholder {
   color: #999;
@@ -169,7 +169,7 @@ form .btn .btn-layer {
     #0073e6
   );
   border-radius: 15px;
-  /* transition: all 0.4s ease; */
+  transition: all 0.4s ease;
 }
 form .btn:hover .btn-layer {
   left: 0;
@@ -187,4 +187,9 @@ form .btn input[type="submit"] {
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
