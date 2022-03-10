@@ -9,76 +9,47 @@
     </head>
     <body>
         <div class="container">
-            <!-- <div class="block">
-                <h1>Sign In</h1>
-                <form action="/studentSignIn" method="POST">
-                    <div class="form">
-                        <label for="std_id" class="form-label">Student ID</label>
-                        <input type="number" class="form-input" name="std_id" id="std_id" autofocus required/>
-                    </div>
-                    <div class="form">
-                        <label class="form-label" for="password">Password</label>
-                        <input type="password" class="form-input" name="password" id="password" required/>
-                    </div>
-                    <button class="button" type="submit">Login</button>
-                </form>
-                
-                <h1>Sign Up</h1>
-                <form action="/studentSignUp" method="POST">
-                    <div class="form">
-                        <label for="aadhar_num" class="form-label">Aadhar Number</label>
-                        <input type="number" class="form-input" name="aadhar_num" id="aadhar_num" autofocus required/>
-                    </div>
-                    <div class="form">
-                        <label class="form-label" for="phone_num">Phone Number</label>
-                        <input type="number" class="form-input" name="phone_num" id="phone_num" required/>
-                    </div>
-                    <button class="button" type="submit">Login</button>
-                </form>
-            </div> -->
-
             <div class="block">
                 <div class="titleText">
-                  <div class="title login">Log In</div>
-                  <div class="title signup">Sign Up</div>
+                    <div class="title login">Log In</div>
+                    <div class="title signup">Sign Up</div>
                 </div>
                 <div class="form">
-                  <div class="slide-controls">
+                    <div class="slide-controls">
                     <input type="radio" name="slide" id="login" checked>
                     <input type="radio" name="slide" id="signup">
                     <label for="login" class="slide login">Login</label>
                     <label for="signup" class="slide signup">Signup</label>
                     <div class="slider-tab"></div>
-                  </div>
-                  <div class="form-inner">
-                    <form action="#" method="post" class="login">
+                    </div>
+                    <div class="form-inner">
+                    <form action="/v1/student/session" method="POST" class="login">
                         <div class="field">
-                            <input type="text" placeholder="Student ID" required>
+                            <input type="number" placeholder="Student ID" name="student_id" id="student_id" required>
                         </div>
                         <div class="field">
-                            <input type="password" placeholder="Password" required>
+                            <input type="password" name="password" id="password" placeholder="Password" required>
                         </div>
                         <div class="field btn">
                             <div class="btn-layer"></div>
                             <input type="submit" value="Login">
                         </div>
                     </form>
-                    <form action="#" method="post" class="signup">
+                    <form action="/studentSignUp" method="POST" class="signup">
                         <div class="field">
-                            <input type="text" placeholder="Aadhar Number" required>
+                            <input type="number" placeholder="Aadhar Number" name="aadhar_num" id="aadhar_num" required>
                         </div>
                         <div class="field">
-                            <input type="password" placeholder="Password" required>
+                            <input type="number" placeholder="Phone Number" name="phone_num" id="phone_num" required>
                         </div>
                         <div class="field btn">
                             <div class="btn-layer"></div>
                             <input type="submit" value="Signup">
                         </div>
                     </form>
-                  </div>
+                    </div>
                 </div>
-              </div>
-
+            </div>
         </div>
         <script>
             const loginText = document.querySelector(".titleText .login");

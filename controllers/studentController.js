@@ -4,6 +4,19 @@ exports.signIn =(req,res)=>{
     res.render("student");
 };
 
+
+exports.signInsession =  (req,res)=>{
+    console.log(req.body);
+    let { student_id, password } = req.body;
+    console.log(student_id, password);
+    console.log(data[0].firstName);
+
+    res.status(200).json({
+        message:"all ok"
+    })
+}
+
+
 exports.signUp =(req,res)=>{
     res.render("student");
 };
