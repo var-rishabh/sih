@@ -12,7 +12,7 @@ exports.signInsession = (req,res) =>{
     for (let d of data) {
         if (d.SID == student_id) {
             if (d.password == password) {
-                res.render("profile");
+                //res.render("profile");
                 res.render("profile", { info : data[num]});
             }
         }
@@ -31,7 +31,7 @@ exports.signUp = (req, res) =>{
     let num = 0;
     for (let d of data) {
         if (d.aadharNumber == aadhar_num) {
-            res.render("profile");
+            //res.render("profile");
             res.render("profile", { info : data[num]});
         }
         num++;
