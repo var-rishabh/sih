@@ -26,7 +26,6 @@ exports.signUp = (req,res) => {
 
 exports.signUp = (req, res) =>{
     let { aadhar_num, phone_num } = req.body;
-    console.log(aadhar_num, phone_num);
 
     let num = 0;
     for (let d of data) {
