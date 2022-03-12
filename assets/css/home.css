@@ -12,7 +12,7 @@ body {
   height: 100%;
   width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+  background: -webkit-linear-gradient(left, #003366, #0073e6);
 }
 .block {
   overflow: hidden;

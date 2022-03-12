@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+  background: -webkit-linear-gradient(left, #003366, #0073e6);
   font-family: "Poppins", sans-serif;
 }
 .profile-card {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   margin: 40px auto;
   display: flex;
   justify-content: flex-start;
@@ -51,4 +51,27 @@ p {
   display: inline-block;
   padding: 0;
   margin-left: -4em;
+}
+.request {
+  display: flex;
+  justify-content: flex-end;
+  width: 98%;
+  margin: 10px;
+}
+.all_links {
+  background-color: #fff;
+  border: none !important;
+  padding: 7px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+.all_links a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.all_links:hover {
+  box-shadow: 0 0 8px #f2f3f7;
 }

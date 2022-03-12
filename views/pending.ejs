@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pending Requests</title>
+    <link rel="stylesheet" href="/css/pending.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Pending Requests</h1>
+        </div>
+        <div class="cards">
+            <% for(let count = 0; count < num ; count++ ){ %> 
+                <div class="card">
+                    <p> Name :  <%= info[count].firstName + " " + info[count].middleName + " " + info[count].lastName %> </p>
+                    <p> Aadhar Number : <%= info[count].aadharNumber %> </p>
+                    <p> Student ID : <%= info[count].SID %> </p>
+                    <div class="marksheets">
+                        <p> Marksheets : </p>
+                        <div style="margin-top: 8px;">
+                            <a href="<%= info[count].documents.marksheet10 %>">10<sup>th</sup> Marksheet</a> <br>
+                            <a href="<%= info[count].documents.marksheet12 %>">12<sup>th</sup> Marksheet</a>
+                        </div>
+                    </div>
+                    <div class="w3-section" style="margin-top : 20px !important;">
+                        <button class="w3-button w3-green">Accept</button>
+                        <button class="w3-button w3-red">Decline</button>
+                    </div>
+                </div>
+            <% } %> 
+        </div>
+    </div>
+</body>
+</html>

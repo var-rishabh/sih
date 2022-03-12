@@ -1,3 +1,4 @@
+const student_data = require('../student_data');
 const data = require('../institute_data');
 
 exports.signIn = (req, res) => {
@@ -30,4 +31,12 @@ exports.signUp = (req,res)=>{
         }
         num++;
     }
+}
+
+exports.pending = (req, res) => {
+    let num = 0;
+    for (let d of student_data) {
+        num++;
+    }
+    res.render("pending", { info : student_data, num });
 }
