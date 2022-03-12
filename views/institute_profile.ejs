@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="/css/profile.css">
 </head>
 <body>
-        <h1>Institution</h1>
+    <section class="profile-card">
+        <div class="card">
+            <div>
+                <img src="<%= info.inst_logo %>" style="max-width: 200px;">
+            </div>
+            <h1> <%= info.inst_name %> </h1>
+            <div>
+                <p> Institution ID : <%= info.inst_Id %>  </p>
+                <p> Email : <%= info.email %> </p>
+            </div>
+        </div>
+    </section> 
 </body>
 </html>
