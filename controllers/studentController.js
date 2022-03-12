@@ -20,9 +20,9 @@ exports.signInsession = (req,res) =>{
     }
 }
 
-exports.signUp = (req,res) => {
+/*exports.signUp = (req,res) => {
     res.render("student");
-};
+};*/
 
 exports.signUp = (req, res) =>{
     let { aadhar_num, phone_num } = req.body;
