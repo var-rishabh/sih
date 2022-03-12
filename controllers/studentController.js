@@ -1,4 +1,4 @@
-const data = require('../data');
+const data = require('../student_data');
 
 exports.signIn = (req, res) => {
     res.render("student");

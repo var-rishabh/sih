@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Student</title>
+        <title>Institution</title>
         <link rel="stylesheet" href="/css/form.css" />
     </head>
     <body>
@@ -16,16 +16,16 @@
                 </div>
                 <div class="form">
                     <div class="slide-controls">
-                    <input type="radio" name="slide" id="login" checked>
-                    <input type="radio" name="slide" id="signup">
-                    <label for="login" class="slide login">Login</label>
-                    <label for="signup" class="slide signup">Signup</label>
-                    <div class="slider-tab"></div>
+                        <input type="radio" name="slide" id="login" checked>
+                        <input type="radio" name="slide" id="signup">
+                        <label for="login" class="slide login">Login</label>
+                        <label for="signup" class="slide signup">Signup</label>
+                        <div class="slider-tab"></div>
                     </div>
                     <div class="form-inner">
-                    <form action="/v1/student/session" method="POST" class="login">
+                    <form action="/v1/institute/session" method="POST" class="login">
                         <div class="field">
-                            <input type="number" placeholder="Student ID" name="student_id" id="student_id" required>
+                            <input type="number" placeholder="Institute ID" name="institute_id" id="institute_id" required>
                         </div>
                         <div class="field">
                             <input type="password" name="password" id="password" placeholder="Password" required>
@@ -35,12 +35,12 @@
                             <input type="submit" value="Login">
                         </div>
                     </form>
-                    <form action="/v1/student/signup" method="POST" class="signup">
+                    <form action="/v1/institute/signup" method="POST" class="signup">
                         <div class="field">
-                            <input type="number" placeholder="Aadhar Number" name="aadhar_num" id="aadhar_num" required>
+                            <input type="number" placeholder="Institute ID" name="inst_id" id="inst_id" required>
                         </div>
                         <div class="field">
-                            <input type="number" placeholder="Phone Number" name="phone_num" id="phone_num" required>
+                            <input type="email" placeholder="Email" name="email" id="email" required>
                         </div>
                         <div class="field btn">
                             <div class="btn-layer"></div>
@@ -51,8 +51,6 @@
                 </div>
             </div>
         </div>
-        <script src="/js/form.js">
-            
-        </script>
+        <script src="/js/form.js"></script>
     </body>
 </html>

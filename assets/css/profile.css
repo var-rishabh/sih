@@ -21,7 +21,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  width: 30%;
+  width: 35%;
   border-radius: 5px;
   padding: 20px;
   background-color: #fff;
@@ -35,12 +35,20 @@ body {
   font-weight: 600;
   font-size: 1.3rem;
 }
-.card p {
+p {
   color: #444444;
   font-size: 15px;
   margin: 10px;
 }
-img {
+.img {
   max-width: 150px;
   border-radius:50%;
+}
+.doc_img {
+  width: 200px;
+}
+.content {
+  display: inline-block;
+  padding: 0;
+  margin-left: -4em;
 }

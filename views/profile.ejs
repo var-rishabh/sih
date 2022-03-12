@@ -10,16 +10,26 @@
 <body>
     <section class="profile-card">
         <div class="card">
-            <div class="img">
-                <img src="<%= info.profile %>">
+            <div>
+                <img src="<%= info.profile %>" class="img">
             </div>
             <h1> <%= info.firstName + " " + info.middleName + " " + info.lastName %> </h1>
-            <div class="content">
+            <div>
                 <p> Student ID : <%= info.SID %>  </p>
                 <p> DOB : <%= info.DOB.day + " / " + info.DOB.month + " / " + info.DOB.year %>  </p>
                 <p> Age : <%= info.age %>  </p>
                 <p> Aadhar Number : <%= info.aadharNumber %>  </p>
                 <p> City : <%= info.address %>  </p>
+                <p> Marksheet Class 10<sup>th</sup> : </p>
+            </div>
+            <div>
+                <img src="<%= info.documents.marksheet10 %>" class="doc_img">
+            </div>
+            <div>
+                <p class="content"> Marksheet Class 12<sup>th</sup> : </p>
+            </div>
+            <div>
+                <img src="<%= info.documents.marksheet12 %>" class="doc_img">
             </div>
         </div>
     </section>  
