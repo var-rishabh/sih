@@ -1,5 +1,6 @@
 const student_data = require('../student_data');
 const data = require('../institute_data');
+const mailHelper = require('../utils/emailHelper');
 
 exports.signIn = (req, res) => {
     res.render("institute");
@@ -31,6 +32,17 @@ exports.signUp = (req,res)=>{
         }
         num++;
     }
+}
+
+exports.verifyOTP = async(req,res)=>{
+    
+    await mailHelper({});
+  
+      // json reponse if email is success
+      res.status(200).json({
+        succes: true,
+        message: "Email sent successfully",
+      });
 }
 
 exports.pending = (req, res) => {
