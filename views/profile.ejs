@@ -5,31 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="/css/student_profile.css">
 </head>
 <body>
     <section class="profile-card">
-        <div class="card">
-            <div>
-                <img src="<%= info.profile %>" class="img">
+    <div class="card">
+            <div class="info">
+                <div class="doc-img">
+                    <img src="<%= info.profile %>" class="img">
+                </div>
+                <div class="doc-info">
+                    <h1> <%= info.firstName + " " + info.middleName + " " + info.lastName %> </h1>
+                    <p> Student ID : <%= info.SID %>  </p>
+                    <p> DOB : <%= info.DOB.day + " / " + info.DOB.month + " / " + info.DOB.year %>  </p>
+                    <p> Age : <%= info.age %>  </p>
+                    <p> Aadhar Number : <%= info.aadharNumber %>  </p>
+                    <p> City : <%= info.address %>  </p>
+                </div>
             </div>
-            <h1> <%= info.firstName + " " + info.middleName + " " + info.lastName %> </h1>
-            <div>
-                <p> Student ID : <%= info.SID %>  </p>
-                <p> DOB : <%= info.DOB.day + " / " + info.DOB.month + " / " + info.DOB.year %>  </p>
-                <p> Age : <%= info.age %>  </p>
-                <p> Aadhar Number : <%= info.aadharNumber %>  </p>
-                <p> City : <%= info.address %>  </p>
-                <p> Marksheet Class 10<sup>th</sup> : </p>
-            </div>
-            <div>
-                <img src="<%= info.education.class10.marksheet10 %>" class="doc_img">
-            </div>
-            <div>
-                <p class="content"> Marksheet Class 12<sup>th</sup> : </p>
-            </div>
-            <div>
-                <img src="<%= info.education.class12.marksheet12 %>" class="doc_img">
+            <div class="table">
+                <div class="container-table100">
+                    <table>
+                        <thead>
+                            <tr class="table100-head">
+                                <th>Course</th>
+                                <th>Percentage</th>
+                                <th>Roll Number</th>
+                                <th>Board</th>
+                                <th>Marksheet</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><%= info.education.class10.course %><sup>th</sup></td>
+                                <td><%= info.education.class10.percentage %>%</td>
+                                <td><%= info.education.class10.roll_number %></td>
+                                <td><%= info.education.class10.board %></td>
+                                <td><a href="<%= info.education.class10.marksheet10 %>" class="doc-img">View</a></td>
+                            </tr>
+                            <tr>
+                                <td><%= info.education.class12.course %><sup>th</sup></td>
+                                <td><%= info.education.class12.percentage %>%</td>
+                                <td><%= info.education.class12.roll_number %></td>
+                                <td><%= info.education.class10.board %></td>
+                                <td><a href="<%= info.education.class12.marksheet12 %>" class="doc-img">View</a></td>
+                            </tr>                                            
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </section>  

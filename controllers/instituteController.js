@@ -37,12 +37,12 @@ exports.signUp = (req,res)=>{
 exports.verifyOTP = async(req,res)=>{
     
     await mailHelper({});
-  
-      // json reponse if email is success
-      res.status(200).json({
-        succes: true,
-        message: "Email sent successfully",
-      });
+    res.redirect("back");
+    // json reponse if email is success
+    //   res.status(200).json({
+    //     succes: true,
+    //     message: "Email sent successfully",
+    //   });
 }
 
 exports.pending = (req, res) => {

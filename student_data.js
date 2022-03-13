@@ -390,7 +390,7 @@ const data = [
     },  
     {
         firstName : "Rajesh",
-        middleName: "",
+        middleName: "Chandra",
         lastName:"Singh",       
         aadharNumber : 49416219441,
         DOB : {
@@ -439,7 +439,7 @@ const data = [
 
     },
     {
-        firstName : "gulabpreet",
+        firstName : "Gulaabpreet",
         middleName: "",
         lastName:"Singh",       
         aadharNumber : 123456789,
@@ -539,8 +539,8 @@ const data = [
 
     },
     {
-        firstName : "hrithik",
-        middleName: "",
+        firstName : "Hritik",
+        middleName: "Roshan",
         lastName:"Singh",       
         aadharNumber : 1665846555,
         DOB : {
@@ -589,8 +589,8 @@ const data = [
 
     },
     {
-        firstName : "ramesh",
-        middleName: "",
+        firstName : "Ramesh",
+        middleName: "Raj",
         lastName:"Singh",       
         aadharNumber : 4964984165,
         DOB : {
@@ -633,14 +633,12 @@ const data = [
 
             }
         },
-        
         password: "pass",
         SID:965548,
-
     },
     {
-        firstName : "vijay",
-        middleName: "",
+        firstName : "Vijay",
+        middleName: "Kumar",
         lastName:"Singh",       
         aadharNumber : 9889164981,
         DOB : {
