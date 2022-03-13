@@ -18,7 +18,7 @@ const inst_data = [
     {
         inst_Id: "2163507",         // then it sends otp to the official email_id of the college!
         email: "dtu@gmail.com",
-        inst_name: "Delhi Institue Of tTechnology",
+        inst_name: "Delhi Institue Of Technology",
         inst_logo: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647091941/institute_details/dtu_iq9i7w.jpg",
         password: "pass",
     },
@@ -32,7 +32,7 @@ const inst_data = [
     {
         inst_Id: "2163509",         // then it sends otp to the official email_id of the college!
         email: "info@piet.co.in",
-        inst_name: "Kurukshetra University, Kurukshetraa",
+        inst_name: "Kurukshetra University, Kurukshetra",
         inst_logo: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647092190/institute_details/Kurukshetra_University_logo_n6jq6r.png",
         password: "pass",
     },

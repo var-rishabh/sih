@@ -387,7 +387,7 @@ const data = [
         password : "pass",
         SID : 891234,
 
-    }  
+    },  
     {
         firstName : "Rajesh",
         middleName: "",
