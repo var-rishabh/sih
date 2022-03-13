@@ -12,9 +12,35 @@ const data = [
         age : 19,
         address : "Aligarh",
         profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+            }
         },
         password : "pass",
         SID : 123456,
@@ -30,12 +56,42 @@ const data = [
             year : 2002
         },
         age : 20,
+        edustat: "M.B.A HR",
+        institute: "IIM AHMEDABAD",
         address : "Silchar",
         profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/9549ff7f5600476511721eade4f4b91f_fo2fvi.png",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+            }
         },
+            
+            
         password : "pass",
         SID : 234567,
 
@@ -53,9 +109,35 @@ const data = [
         age : 25,
         address : "Delhi",
         profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/9549ff7f5600476511721eade4f4b91f_fo2fvi.png",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+            }
         },
         password : "pass",
         SID : 345678,
@@ -74,10 +156,37 @@ const data = [
         age : 20,
         address : "Delhi",
         profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/9549ff7f5600476511721eade4f4b91f_fo2fvi.png",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087180/student_details/ankit-10th-marksheet_arjlzv.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087180/student_details/ankit-10th-marksheet_arjlzv.jpg",
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+            }
         },
+     
         password : "pass",
         SID : 456789,
 
@@ -92,13 +201,39 @@ const data = [
             month:09,
             year:2002
         },
-        age : 20,
         address:"Silchar",
         profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/26ee73636f3429e3df522ae219c064fd_xf1cjr.png",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+            }
         },
+        
         password: "pass",
         SID : 567891,
 
@@ -116,10 +251,39 @@ const data = [
         age:20,
         address:"Fatehpur",
         profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
         },
+        
         password: "pass",
         SID:678912,
 
@@ -137,10 +301,39 @@ const data = [
         age : 20,
         address :"Rohtak",
         profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/9549ff7f5600476511721eade4f4b91f_fo2fvi.png",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+
+            }
         },
+        
         password : "pass",
         SID : 789123,
 
@@ -158,14 +351,493 @@ const data = [
         age : 20,
         address :"Faridabad",
         profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/9549ff7f5600476511721eade4f4b91f_fo2fvi.png",
-        documents : {
-            marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
-            marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/50044736942_d43b9f62a3_o_bfwkiq.webp",
+
+            }
         },
+      
         password : "pass",
         SID : 891234,
 
     }  
+    {
+        firstName : "Rajesh",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 49416219441,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:678912,
+
+    },
+    {
+        firstName : "gulabpreet",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 123456789,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:84986,
+
+    },
+    {
+        firstName : "Vinit",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 5484161988,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:598521,
+
+    },
+    {
+        firstName : "hrithik",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 1665846555,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:359568,
+
+    },
+    {
+        firstName : "ramesh",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 4964984165,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:965548,
+
+    },
+    {
+        firstName : "vijay",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 9889164981,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:8894112,
+
+    },
+    {
+        firstName : "Vinit",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 96551442,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:9984110,
+
+    },
+    {
+        firstName : "Vinita",
+        middleName: "",
+        lastName:"Singh",       
+        aadharNumber : 4194894654,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:98896594,
+
+    },
+    {
+        firstName : "Nipun",
+        middleName: "",
+        lastName:"Rustagi",       
+        aadharNumber : 165488992  ,
+        DOB : {
+            day:13,
+            month:09,
+            year:2002
+        },
+        age:20,
+        address:"Fatehpur",
+        profile: "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        education : {
+            education_status : "B.Tech CSE",
+            college : "Panipat Institute of Engineering and Technology",
+            class10 : {
+                course: 10,
+                percentage: 85,
+                roll_number : 5014656,
+                board : "CBSE",
+                year : {
+                    admission : 2016,
+                    passed : 2018
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet10 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/10th-marksheet-1_mjskv8.jpg",
+
+            },
+            class12 : {
+                course: 12,
+                percentage: 90,
+                roll_number : 2164578,
+                board : "CBSE",
+                year : {
+                    admission : 2018,
+                    passed : 2020
+                },
+                institute : "Brilliant Public School",
+                state : "Uttar Pradesh",
+                marksheet12 : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/main-qimg-19e966ebddca15a6f4ae31ceaf853a6e_ocaxrz.webp",
+
+            }
+        },
+        
+        password: "pass",
+        SID:846166519,
+
+    },
 ];
 
 module.exports = data;
