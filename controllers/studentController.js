@@ -31,10 +31,21 @@ exports.signUp = (req, res) =>{
     for (let d of data) {
         if (d.aadharNumber == aadhar_num) {
             //res.render("profile");
-            res.render("profile", { info : data[num]});
+            res.redirect("http://localhost:5000");
+            // res.render("profile", { info : data[num] });
         }
         num++;
     }
-
-    res.render("profile", { info: data[num] });
 }
+
+exports.signUpSession = (req, res) => {
+    let { aadhar_num } = req.query;
+    // console.log(aadhar_num);
+    let num = 0;
+    for (let d of data) {
+        if (d.aadharNumber == aadhar_num) {
+            res.render("profile", { info : data[num] });
+        }
+        num++;
+    }
+};

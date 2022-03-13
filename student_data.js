@@ -11,7 +11,7 @@ const data = [
         },
         age : 19,
         address : "Aligarh",
-        profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087178/student_details/m8hn2zxh34r61_peubyt.webp",
+        profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647184005/student_details/pic_1_urwkjp.jpg",
         education : {
             education_status : "B.Tech CSE",
             college : "Panipat Institute of Engineering and Technology",
@@ -59,7 +59,7 @@ const data = [
         edustat: "M.B.A HR",
         institute: "IIM AHMEDABAD",
         address : "Silchar",
-        profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647087179/student_details/9549ff7f5600476511721eade4f4b91f_fo2fvi.png",
+        profile : "https://res.cloudinary.com/ddllqpyuz/image/upload/v1647183772/student_details/20211128135640_IMG_8179_weioed.jpg",
         education : {
             education_status : "B.Tech CSE",
             college : "Panipat Institute of Engineering and Technology",
