@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Phone Number Authentication with Firebase Web</title>
+    <link rel="stylesheet" href="./otp.css" />
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="block">
+            <div class="titleText">
+                <div class="title signup">Verification</div>
+            </div>
+            <div class="form">
+                <div>
+                <form class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Phone Number" name="number" id="number" >
+                    </div>
+                    <div id="recaptcha-container"></div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="button" onclick="phoneAuth();" value="Send OTP">
+                    </div>
+                </form>
+                <form>
+                    <div class="field">
+                        <input type="text" name="verificationCode" id="verificationCode" placeholder="OTP">
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <a href="http://localhost:8000/v1/student/signUpSession?aadhar_num=256389574582">
+                            <input type="button"  onclick="codeverify();" value="Verify OTP">
+                        </a>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCvWTkOXeikwvMXUqzBID4J0GxRfrnOKpA",
+        authDomain: "pchat-e8a71.firebaseapp.com",
+        projectId: "pchat-e8a71",
+        storageBucket: "pchat-e8a71.appspot.com",
+        messagingSenderId: "329062810425",
+        appId: "1:329062810425:web:fcb484f1a7d36696dddee8",
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./NumberAuthentication.js" type="text/javascript"></script>
+
+  </body>
+</html>

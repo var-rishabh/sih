@@ -16,6 +16,7 @@ app.set('views', './views');
 app.use('/v1',home);
 app.use('/v1',student);
 app.use('/v1',institute);
+// app.use('/v1/student/signUpSession/:aadhar_num',institute);
 
 
 module.exports = app ;
